@@ -1,0 +1,28 @@
+{
+  "name": "devsummit",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "antd": "^3.8.2",
+    "babel-plugin-import": "^1.8.0",
+    "eslint": "^5.4.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-react": "^7.11.1",
+    "gh-pages": "^1.2.0",
+    "react-app-rewire-less": "^2.1.2",
+    "react-app-rewired": "^1.5.2",
+    "react-scripts": "1.1.5"
+  },
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "deploy": "yarn build && gh-pages -d build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "homepage": "http://ri7nz.github.io/makassardevsummit.github.io"
+}

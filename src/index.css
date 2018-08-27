@@ -1,0 +1,40 @@
+@import '~antd/dist/antd.css';
+
+.logo {
+    width: 120px;
+    height: 31px;
+    background: rgba(255,255,255,.2);
+    margin: 16px 24px 16px 0;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 120px;
+}
+
+.ant-layout .ant-layout-header {
+    background: #ffffff;
+}
+
+.ant-layout-content h1,h2,h3 {
+    color: #534b48;
+}
+
+.ant-divider-inner-text {
+    font-size: x-large;
+    color: #534b48;
+}
+
+.sponsor {
+    background: #dd282b;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    color: white;
+    font-size: large;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
